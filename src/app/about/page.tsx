@@ -19,13 +19,13 @@ export default function AboutPage() {
         <div className="flex flex-col justify-center">
           <h2 className="mb-4 text-2xl font-bold md:text-3xl">Muhammad Raheem</h2>
           <p className="mb-4 text-lg">
-            I'm a passionate web developer focused on creating clean, modern, and responsive websites.
+            I&apos;m a passionate web developer focused on creating clean, modern, and responsive websites.
             With expertise in Next.js, React, TypeScript, and Tailwind CSS, I build web applications
             that deliver exceptional user experiences.
           </p>
           <p className="mb-6 text-lg">
-            My journey in web development started several years ago, and I've since worked on a variety of
-            projects ranging from small business websites to complex web applications. I'm constantly learning
+            My journey in web development started several years ago, and I&apos;ve since worked on a variety of
+            projects ranging from small business websites to complex web applications. I&apos;m constantly learning
             and staying up-to-date with the latest technologies and best practices in the field.
           </p>
           <div className="flex gap-4">

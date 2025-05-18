@@ -8,7 +8,7 @@ export default function NotFound() {
       <h1 className="mb-6 text-6xl font-extrabold">404</h1>
       <h2 className="mb-8 text-2xl font-bold">Page Not Found</h2>
       <p className="max-w-md mb-12 text-lg">
-        Sorry, the page you're looking for doesn't exist or has been moved.
+        Sorry, the page you&apos;re looking for doesn&apos;t exist or has been moved.
       </p>
       <Link href="/">
         <Button size="lg" className="gap-2">

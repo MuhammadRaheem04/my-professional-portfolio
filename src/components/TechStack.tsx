@@ -9,7 +9,6 @@ import {
   Database,
   Globe,
   Layout,
-  Smartphone,
   PaintBucket,
   Github,
   MonitorSmartphone,
@@ -24,9 +23,6 @@ interface TechStackProps {
 }
 
 export default function TechStack({
-  showLabels = false,
-  vertical = false,
-  compact = false
 }: TechStackProps) {
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: true, amount: 0.2 });
@@ -96,7 +92,7 @@ export default function TechStack({
           },
         }}
       >
-        {technologies.map((tech, index) => (
+        {technologies.map((tech) => (
           <TooltipProvider key={tech.name}>
             <Tooltip>
               <TooltipTrigger asChild>

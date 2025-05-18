@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import { useState } from 'react';
 import ProjectCard from '@/components/ProjectCard';
 import { projects } from '@/lib/data';
 
@@ -15,8 +14,8 @@ export default function ProjectsPage() {
       
       <div className="mb-12">
         <p className="max-w-3xl mx-auto text-lg text-center">
-          Here are some of the projects I've worked on. Each project represents different skills 
-          and technologies I've applied to solve real-world problems.
+          Here are some of the projects I&apos;ve worked on. Each project represents different skills 
+          and technologies I&apos;ve applied to solve real-world problems.
         </p>
       </div>
       

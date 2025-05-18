@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
-import { Button } from '@/components/ui/button';
 import { Github, Linkedin, MessageSquare } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -15,7 +14,7 @@ export default function ContactPage() {
       
       <div className="mb-16">
         <p className="max-w-3xl mx-auto text-lg text-center">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           Feel free to reach out through the form below or connect with me on social media.
         </p>
       </div>

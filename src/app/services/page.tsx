@@ -30,8 +30,8 @@ export default function ServicesPage() {
       <div className="p-8 mt-20 text-center rounded-lg bg-primary/5">
         <h2 className="mb-4 text-2xl font-bold md:text-3xl">Need a custom solution?</h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg">
-          If you don't see exactly what you're looking for, let's discuss your specific requirements.
-          I'm always open to customizing my services to meet your unique needs.
+          If you don&apos;t see exactly what you&apos;re looking for, let&apos;s discuss your specific requirements.
+          I&apos;m always open to customizing my services to meet your unique needs.
         </p>
         <Link href="/contact">
           <Button size="lg" className="font-semibold">

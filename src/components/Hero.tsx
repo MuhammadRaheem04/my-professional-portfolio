@@ -113,7 +113,7 @@ export default function Hero() {
 
         <motion.div variants={itemVariants}>
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl">
-            Hi, I'm <span className="gradient-text">Muhammad Raheem</span>
+            Hi, I&apos;m <span className="gradient-text">Muhammad Raheem</span>
           </h1>
         </motion.div>
 
