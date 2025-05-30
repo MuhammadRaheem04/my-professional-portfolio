@@ -19,7 +19,7 @@ export default function AboutPage() {
         <div className="flex flex-col justify-center">
           <h2 className="mb-4 text-2xl font-bold md:text-3xl">Muhammad Raheem</h2>
           <p className="mb-4 text-lg">
-            I&apos;m a dedicated Frontend Developer and AI enthusiast based in Karachi, Pakistan. Currently pursuing the "Certified Agentic & Robotic AI Engineer" program at GIAIC, I specialize in building modern, responsive, and user-focused web applications.
+            I&apos;m a dedicated Frontend Developer and AI enthusiast based in Karachi, Pakistan. Currently pursuing the &quot;Certified Agentic & Robotic AI Engineer&quot; program at GIAIC, I specialize in building modern, responsive, and user-focused web applications.
           </p>
           <p className="mb-4 text-lg">
             My core stack includes <strong>Next.js, React.js, TypeScript, and Tailwind CSS</strong>. I&apos;ve built and deployed full-stack applications using real-world tools like <strong>Sanity CMS, Stripe, and Clerk</strong>, including a production-ready e-commerce platform.
