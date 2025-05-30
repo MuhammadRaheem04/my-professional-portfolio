@@ -24,13 +24,13 @@ export interface ServiceType {
 export const projects: ProjectType[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.",
+    title: "Full-Stack E-Commerce Website",
+    description: "A full-featured e-commerce platform built with Next.js, TypeScript, Tailwind CSS and Sanity.",
     longDescription: "A modern e-commerce platform that provides a seamless shopping experience. Built with Next.js App Router for optimized performance and SEO, TypeScript for type safety, and Tailwind CSS for responsive design. Includes user authentication, product filtering, cart functionality, and payment integration.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    image: "https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    liveUrl: "https://ecommerce-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/ecommerce-platform",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Sanity", "Clerk"],
+    image: "https://i.ibb.co/fYrXpyc3/Ecomerce-web-img.png",
+    liveUrl: "https://full-stack-e-commerce-website-built.vercel.app/",
+    githubUrl: "https://github.com/MuhammadRaheem04/Full-Stack-E-Commerce-Website-built-with-Next.js-15",
     features: [
       "Responsive design for all device sizes",
       "Product catalog with advanced filtering",
@@ -76,132 +76,6 @@ export const projects: ProjectType[] = [
       "Activity logs and dashboards"
     ]
   },
-  {
-    id: 4,
-    title: "Real Estate Listings",
-    description: "A modern real estate platform with property listings and advanced search functionality.",
-    longDescription: "A comprehensive real estate platform for property listings and search. Implemented with Next.js for fast page loads, TypeScript for type safety, and Tailwind CSS for responsive design. Features include map integration, advanced search filters, saved favorites, and agent contact forms.",
-    tags: ["Next.js", "TypeScript", "Google Maps API", "ShadCN UI"],
-    image: "https://pixabay.com/get/g92402e07594a7f44559f8fbdb5bb74056a9c021f246d8742bf1371408b1e759f032cc0f22b6cd605682b7345981c0860353930d0e0807cc929109d70c254719f_1280.jpg",
-    liveUrl: "https://realestate-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/real-estate",
-    features: [
-      "Interactive property maps with Google Maps API",
-      "Advanced search with multiple filters",
-      "Property details with image galleries",
-      "Save favorite properties",
-      "Contact agents through forms",
-      "Responsive design for mobile and desktop"
-    ]
-  },
-  {
-    id: 5,
-    title: "Food Delivery App",
-    description: "A food delivery application with restaurant listings, order tracking, and payment processing.",
-    longDescription: "A complete food delivery solution allowing users to browse restaurants, place orders, and track delivery in real-time. Built with Next.js, TypeScript, and Tailwind CSS. Includes restaurant search, menu customization, cart management, secure checkout, and delivery tracking.",
-    tags: ["Next.js", "MongoDB", "Tailwind CSS", "Stripe"],
-    image: "https://pixabay.com/get/g8368ded07b93d7de9868ff8c5d51db6e6686905f75cec8648f1ec8c2d0d6d3bffb93e306457654921076054d5c1a0ae71d5f88fb59db29a0f703161b8323fe1f_1280.jpg",
-    liveUrl: "https://fooddelivery-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/food-delivery",
-    features: [
-      "Restaurant search and filtering",
-      "Menu browsing with item customization",
-      "Order cart and checkout process",
-      "Secure payment processing",
-      "Real-time order tracking",
-      "Order history and reordering"
-    ]
-  },
-  {
-    id: 6,
-    title: "Social Media Dashboard",
-    description: "A comprehensive dashboard for managing social media accounts and analytics.",
-    longDescription: "An all-in-one social media management dashboard that helps users schedule posts, monitor engagement, and analyze performance across multiple platforms. Built with Next.js, TypeScript, and Tailwind CSS. Features include post scheduling, analytics visualization, engagement tracking, and content calendar management.",
-    tags: ["React", "TypeScript", "Chart.js", "ShadCN UI"],
-    image: "https://pixabay.com/get/gb699fe876a3278b9ec2f8c0023dc4d7fd5e7a40e203b58e5a3313947c468965fbbae955ef5aec27f1dfec052844b89d853675485baf965a114576133a138caa9_1280.jpg",
-    liveUrl: "https://socialdashboard-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/social-dashboard",
-    features: [
-      "Multi-platform social media management",
-      "Post scheduling and content calendar",
-      "Performance analytics with visualizations",
-      "Engagement tracking and reporting",
-      "Audience insights and demographics",
-      "Export functionality for reports"
-    ]
-  },
-  {
-    id: 7,
-    title: "Health & Fitness Tracker",
-    description: "A health and fitness tracking application with custom workout plans and nutrition monitoring.",
-    longDescription: "A comprehensive health and fitness application that allows users to track workouts, monitor nutrition, and set personalized fitness goals. Built with Next.js, TypeScript, and Tailwind CSS. Features include workout logging, nutrition tracking, progress visualization, and personalized recommendations.",
-    tags: ["Next.js", "TypeScript", "D3.js", "MongoDB"],
-    image: "https://pixabay.com/get/g8823ae513cca4cd13f3ca567b9c96b860f6ddd9b7a0215b134fb23c6441d8d4234b40457e758f5a947a33ab308f769c811ca83ce665cdfba326d5803e19a478f_1280.jpg",
-    liveUrl: "https://fitnesstracker-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/fitness-tracker",
-    features: [
-      "Customizable workout plans",
-      "Nutrition tracking and meal planning",
-      "Progress tracking with charts and graphs",
-      "Goal setting and achievement tracking",
-      "Personalized recommendations",
-      "Integration with fitness devices"
-    ]
-  },
-  {
-    id: 8,
-    title: "Learning Management System",
-    description: "An educational platform with course management, student tracking, and content delivery.",
-    longDescription: "A comprehensive learning management system for educational institutions and online courses. Built with Next.js, TypeScript, and Tailwind CSS. Features include course creation, student enrollment, content delivery, assignment submission, grading, and progress tracking.",
-    tags: ["Next.js", "MongoDB", "TypeScript", "AWS S3"],
-    image: "https://pixabay.com/get/gd3387a97b5d36f5085e3db4c00442fcd0fcff0461028af63e7fce81d4c379fa133feadb67924deecdc992b1fb00162a0bb843ec190b3f2e83365d268ce5067d0_1280.jpg",
-    liveUrl: "https://lms-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/learning-management",
-    features: [
-      "Course creation and management",
-      "Student enrollment and user roles",
-      "Content delivery with various media types",
-      "Assignment submission and grading",
-      "Progress tracking and reporting",
-      "Discussion forums and messaging"
-    ]
-  },
-  {
-    id: 9,
-    title: "Blog Platform with CMS",
-    description: "A modern blog platform with content management system built with Next.js and Sanity CMS.",
-    longDescription: "A full-featured blog platform with an integrated content management system. Built with Next.js for the frontend and Sanity.io for the CMS. Includes rich text editing, image optimization, categories and tags, search functionality, and SEO optimization.",
-    tags: ["Next.js", "Sanity CMS", "TypeScript", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    liveUrl: "https://blog-cms-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/blog-platform",
-    features: [
-      "Rich text editing with Sanity Studio",
-      "Image optimization and management",
-      "Categories, tags, and related posts",
-      "Search functionality",
-      "SEO optimization",
-      "Social sharing and comments"
-    ]
-  },
-  {
-    id: 10,
-    title: "Weather Dashboard",
-    description: "A responsive weather dashboard with real-time updates, forecasts, and historical data.",
-    longDescription: "An interactive weather dashboard providing current conditions, forecasts, and historical weather data. Built with Next.js, TypeScript, and Tailwind CSS. Features include location search, current weather display, multi-day forecasts, hourly predictions, and weather maps.",
-    tags: ["Next.js", "TypeScript", "Weather API", "Chart.js"],
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1164&q=80",
-    liveUrl: "https://weather-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/weather-dashboard",
-    features: [
-      "Location search and geolocation",
-      "Current weather conditions display",
-      "Multi-day weather forecasts",
-      "Hourly weather predictions",
-      "Interactive weather maps",
-      "Historical weather data access"
-    ]
-  }
 ];
 
 export const services: ServiceType[] = [

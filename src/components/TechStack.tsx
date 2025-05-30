@@ -61,7 +61,27 @@ export default function TechStack({
   icon: <Globe className="w-full h-full text-[#888888]" />, // updated
   color: '#888888' 
 },
-    { name: 'Node.js', icon: <Terminal className="w-full h-full text-[#339933]" />, color: '#339933' },
+// Agentic AI
+{
+  name: 'Python',
+  icon: <Terminal className="w-full h-full text-[#3776AB]" />,
+  color: '#3776AB'
+},
+{
+  name: 'Streamlit',
+  icon: <MonitorSmartphone className="w-full h-full text-[#FF4B4B]" />,
+  color: '#FF4B4B'
+},
+{
+  name: 'Pandas',
+  icon: <Database className="w-full h-full text-[#150458]" />,
+  color: '#150458'
+},
+{
+  name: 'OpenAI SDK',
+  icon: <Code className="w-full h-full text-[#10A37F]" />,
+  color: '#10A37F'
+},
   ];
 
   const renderIcon = (tech: { name: string; icon: React.ReactNode; color: string }) => (

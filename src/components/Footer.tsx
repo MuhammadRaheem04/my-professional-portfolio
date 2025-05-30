@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <div className="flex p-1 rounded-lg bg-primary/5">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/MuhammadRaheem04"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 transition-all rounded-md text-muted-foreground hover:text-primary hover:bg-primary/10"
@@ -40,7 +40,7 @@ export default function Footer() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/muhammad04raheem/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 transition-all rounded-md text-muted-foreground hover:text-primary hover:bg-primary/10"
@@ -101,11 +101,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-5 h-5 mt-0.5 text-primary/70" />
-                <span>Islamabad, Pakistan</span>
+                <span>Karachi, Pakistan</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <Code className="w-5 h-5 mt-0.5 text-primary/70" />
-                <span>Full-Stack Developer</span>
+                <span>Frontend Developer</span>
               </li>
             </ul>
           </div>

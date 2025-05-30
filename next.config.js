@@ -5,7 +5,8 @@ const nextConfig = {
     domains: [
       'pixabay.com',
       'images.unsplash.com',
-      'source.unsplash.com'
+      'source.unsplash.com',
+      'i.ibb.co'
     ],
     remotePatterns: [
       {

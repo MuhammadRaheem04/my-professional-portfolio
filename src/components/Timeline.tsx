@@ -8,37 +8,51 @@ import { cn } from '@/lib/utils';
 const timelineData = [
   {
     id: 1,
-    title: 'Senior Web Developer',
-    company: 'Tech Solutions Inc.',
-    date: '2022 - Present',
-    description: 'Led frontend development for multiple high-profile projects using Next.js, TypeScript, and Tailwind CSS. Improved site performance by 40% through code optimization.',
+    title: 'Agentic AI Developer (In Progress)',
+    company: 'GIAIC – Quarter 4',
+    date: 'May 2025 – Present',
+    description:
+      'Currently learning Agentic AI using Python and OpenAI Agents SDK. Developing intelligent agents for automation and reasoning tasks.',
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
     id: 2,
-    title: 'Frontend Developer',
-    company: 'Digital Innovations',
-    date: '2020 - 2022',
-    description: 'Developed responsive web applications using React and modern CSS. Implemented state management with Redux and collaborated closely with design teams.',
+    title: 'Python & Streamlit Developer',
+    company: 'GIAIC – Quarter 3',
+    date: 'Apr 2025',
+    description:
+      'Built learning projects using Python, Streamlit, Pandas, and UV. Developed logic-based tools like Data Sweeper and Secure Data Encryption App.',
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
     id: 3,
-    title: 'Junior Web Developer',
-    company: 'Web Crafters',
-    date: '2018 - 2020',
-    description: 'Created and maintained websites for clients across various industries. Specialized in responsive design and accessibility compliance.',
+    title: 'Frontend Developer (React & Next.js)',
+    company: 'GIAIC – Quarter 2',
+    date: 'Mar 2025',
+    description:
+      'Created responsive frontend projects using React.js, Next.js 15, Tailwind CSS, Sanity CMS, Clerk, and Stripe. Built and deployed a full-stack e-commerce website.',
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
     id: 4,
-    title: 'Computer Science Degree',
-    company: 'University of Computer Science',
-    date: '2014 - 2018',
-    description: 'Bachelor of Science in Computer Science with focus on web technologies and software development.',
+    title: 'Web Development Fundamentals',
+    company: 'GIAIC – Quarter 1',
+    date: 'Feb 2024',
+    description:
+      'Learned HTML5, CSS3, JavaScript, and TypeScript. Laid strong foundation for building interactive and responsive web applications.',
+    icon: <GraduationCap className="w-5 h-5" />,
+  },
+  {
+    id: 5,
+    title: 'LLB (Law Degree)',
+    company: 'Federal Urdu University (FUUAST), Karachi',
+    date: '2021 – Present',
+    description:
+      'Currently pursuing a 5-year Bachelor of Laws program while simultaneously advancing in the tech field through AI and web development training.',
     icon: <GraduationCap className="w-5 h-5" />,
   },
 ];
+
 
 export default function Timeline() {
   const timelineRef = useRef(null);
