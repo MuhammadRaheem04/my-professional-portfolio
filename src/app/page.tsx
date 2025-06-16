@@ -21,7 +21,7 @@ export default function Home() {
       {/* Featured Projects Section */}
       <section className="mb-24">
         <h2 className="mb-8 text-3xl font-bold text-center md:text-4xl">Featured Projects</h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 ">
           {projects.slice(0, 3).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

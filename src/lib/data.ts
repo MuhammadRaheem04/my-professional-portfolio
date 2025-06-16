@@ -27,7 +27,7 @@ export const projects: ProjectType[] = [
     title: "Full-Stack E-Commerce Website",
     description: "A full-featured e-commerce platform built with Next.js, TypeScript, Tailwind CSS and Sanity.",
     longDescription: "A modern e-commerce platform that provides a seamless shopping experience. Built with Next.js App Router for optimized performance and SEO, TypeScript for type safety, and Tailwind CSS for responsive design. Includes user authentication, product filtering, cart functionality, and payment integration.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Sanity", "Clerk"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Sanity", "Clerk", "Zustand"],
     image: "https://i.ibb.co/fYrXpyc3/Ecomerce-web-img.png",
     liveUrl: "https://full-stack-e-commerce-website-built.vercel.app/",
     githubUrl: "https://github.com/MuhammadRaheem04/Full-Stack-E-Commerce-Website-built-with-Next.js-15",
@@ -44,11 +44,11 @@ export const projects: ProjectType[] = [
     id: 2,
     title: "Portfolio Website",
     description: "A modern portfolio website showcasing web development projects and skills.",
-    longDescription: "A professionally designed portfolio website to showcase web development skills and projects. Built with Next.js App Router for fast page transitions, TypeScript for code reliability, and Tailwind CSS for custom styling. Features smooth animations with Framer Motion and a contact form with email integration.",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1164&q=80",
-    liveUrl: "https://portfolio-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/portfolio-website",
+    longDescription: "A professionally designed portfolio website to showcase web development skills and projects. Built with Next.js App Router for fast page transitions, TypeScript for code reliability, and Tailwind CSS for custom styling and a contact form with email integration.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript"],
+    image: "https://i.ibb.co/RkKCCVMF/portfolio.png",
+    liveUrl: "https://muhammad-raheem-personal-portfolio-website.vercel.app/",
+    githubUrl: "https://github.com/MuhammadRaheem04/My-Personal-Portfolio-website-by-Muhammad-Raheem",
     features: [
       "Modern UI design with dark/light mode",
       "Animated page transitions",
@@ -58,24 +58,24 @@ export const projects: ProjectType[] = [
       "Performance optimized with Next.js"
     ]
   },
-  {
-    id: 3,
-    title: "Task Management App",
-    description: "A collaborative task management application for teams with real-time updates.",
-    longDescription: "A comprehensive task management application designed for team collaboration with real-time updates. Built with Next.js, TypeScript, and Tailwind CSS. Features drag-and-drop task organization, user assignments, due dates, and real-time notifications. Includes project boards and team management functionality.",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    liveUrl: "https://taskmanager-demo.com",
-    githubUrl: "https://github.com/muhammadraheem/task-manager",
-    features: [
-      "Drag-and-drop task organization",
-      "User roles and permissions",
-      "Task assignment and due date tracking",
-      "Real-time notifications",
-      "Project and team management",
-      "Activity logs and dashboards"
-    ]
-  },
+  // {
+  //   id: 3,
+  //   title: "E-Commerce Website",
+  //   description: "A collaborative task management application for teams with real-time updates.",
+  //   longDescription: "A comprehensive task management application designed for team collaboration with real-time updates. Built with Next.js, TypeScript, and Tailwind CSS. Features drag-and-drop task organization, user assignments, due dates, and real-time notifications. Includes project boards and team management functionality.",
+  //   tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+  //   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+  //   liveUrl: "https://taskmanager-demo.com",
+  //   githubUrl: "https://github.com/muhammadraheem/task-manager",
+  //   features: [
+  //     "Drag-and-drop task organization",
+  //     "User roles and permissions",
+  //     "Task assignment and due date tracking",
+  //     "Real-time notifications",
+  //     "Project and team management",
+  //     "Activity logs and dashboards"
+  //   ]
+  // },
 ];
 
 export const services: ServiceType[] = [

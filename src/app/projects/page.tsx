@@ -20,11 +20,12 @@ export default function ProjectsPage() {
       </div>
       
       {/* Filter - Client-side component would be implemented here */}
-      
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className='flex justify-center'>
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 w-full px-4">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
+      </div>
       </div>
     </div>
   );

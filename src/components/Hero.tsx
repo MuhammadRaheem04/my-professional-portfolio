@@ -102,7 +102,7 @@ export default function Hero() {
           className="mx-auto mb-8 overflow-hidden rounded-full w-48 h-48 md:w-60 md:h-60 border-4 border-primary/20 shadow-xl"
         >
           <Image 
-            src="/images/Profile Picture.jpg" 
+            src="/images/profile-03.png" 
             alt="Muhammad Raheem"
             width={240}
             height={240}
