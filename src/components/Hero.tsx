@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
@@ -53,6 +53,7 @@ const TypeWriter = ({ texts }: { texts: string[] }) => {
 export default function Hero() {
   const typewriterTexts = [
     "Frontend Web Developer",
+    "Agentic AI Developer",
     "React & Next.js Developer",
     "Tailwind CSS UI Expert",
     "Building clean, modern, and responsive websites",
@@ -83,7 +84,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative flex items-center min-h-screen py-16 pt-32 mb-16 mt-10">
+    <section className="relative flex min-h-screen py-16 pt-32 mb-16 mt-20">
       {/* Background gradient */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] rounded-full bg-primary/10 blur-[100px]" />
@@ -97,27 +98,30 @@ export default function Hero() {
         animate="visible"
       >
         {/* Profile Image */}
-        <motion.div 
+        {/* <motion.div 
           variants={itemVariants}
           className="mx-auto mb-8 overflow-hidden rounded-full w-48 h-48 md:w-60 md:h-60 border-4 border-primary/20 shadow-xl"
         >
           <Image 
-            src="/images/profile-03.png" 
+            src="/images/Profile Picture.jpg" 
             alt="Muhammad Raheem"
             width={240}
             height={240}
             className="object-cover w-full h-full"
             priority
           />
-        </motion.div>
+        </motion.div> */}
 
         <motion.div variants={itemVariants}>
-          <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl">
-            Hi, I&apos;m <span className="gradient-text">Muhammad Raheem</span>
+          <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-7xl">
+            Hi, I&apos;m 
           </h1>
+            <h1 className="mb-3 text-4xl font-extrabold tracking-tight md:text-7xl">
+            <span className="gradient-text">Muhammad Raheem</span>
+            </h1>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="mb-8">
+        <motion.div variants={itemVariants} className="mb-6">
           <TypeWriter texts={typewriterTexts} />
         </motion.div>
 
@@ -140,7 +144,7 @@ export default function Hero() {
 
         <motion.div
           variants={itemVariants}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-20 left-1/2 transform -translate-x-1/2"
         >
           <div className="flex items-center justify-center w-8 h-12 border-2 rounded-full border-muted-foreground/30">
             <motion.div

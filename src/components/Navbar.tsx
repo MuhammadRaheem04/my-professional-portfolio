@@ -50,25 +50,17 @@ export default function Navbar() {
           : 'bg-transparent py-5'
       )}
     >
-      <div className="container flex items-center justify-between px-4 mx-auto">
+      <div className="container flex items-center justify-between px-4 mx-auto ">
         <Link href="/" className="flex items-center gap-2">
-          <div className="relative w-10 h-10">
+          <div className="relative w-20 h-20 md:ml-14">
             <Image 
-              src="/images/logo.svg" 
+              src="/images/Raheem-logo.png" 
               alt="Muhammad Raheem - Web Developer"
-              width={40}
-              height={40}
+              width={100}
+              height={100}
               priority
             />
           </div>
-          <motion.span
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            className="text-xl md:text-2xl font-bold gradient-text"
-          >
-            Muhammad Raheem
-          </motion.span>
         </Link>
 
         {/* Desktop Navigation */}

@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import Timeline from '@/components/Timeline';
 import TechStack from '@/components/TechStack';
 import { Button } from '@/components/ui/button';
@@ -15,7 +14,7 @@ export default function AboutPage() {
     <div className="container px-4 py-16 mx-auto mt-12">
       <h1 className="mb-12 text-4xl font-extrabold text-center md:text-5xl">About Me</h1>
 
-      <div className="grid grid-cols-1 gap-12 md:grid-cols-2 items-center">
+      <div className="flex flex-col md:flex-row justify-center items-center w-[60%] mx-auto">
         <div className="flex flex-col justify-center">
           <h2 className="mb-4 text-2xl font-bold md:text-3xl">Muhammad Raheem</h2>
           <p className="mb-4 text-lg">
@@ -35,19 +34,6 @@ export default function AboutPage() {
             <Link href="/contact">
               <Button variant="outline" size="lg">Contact Me</Button>
             </Link>
-          </div>
-        </div>
-
-        <div className="relative flex items-center justify-center overflow-hidden rounded-lg h-80 md:h-auto">
-          <div className="w-[500px] h-full max-w-md max-h-md">
-            <Image
-              src="/images/profile-03.png"
-              alt="Muhammad Raheem"
-              width={500}
-              height={500}
-              className="object-cover rounded-lg shadow-md"
-              priority
-            />
           </div>
         </div>
       </div>

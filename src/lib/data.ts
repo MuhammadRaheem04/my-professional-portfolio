@@ -58,24 +58,25 @@ export const projects: ProjectType[] = [
       "Performance optimized with Next.js"
     ]
   },
-  // {
-  //   id: 3,
-  //   title: "E-Commerce Website",
-  //   description: "A collaborative task management application for teams with real-time updates.",
-  //   longDescription: "A comprehensive task management application designed for team collaboration with real-time updates. Built with Next.js, TypeScript, and Tailwind CSS. Features drag-and-drop task organization, user assignments, due dates, and real-time notifications. Includes project boards and team management functionality.",
-  //   tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
-  //   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-  //   liveUrl: "https://taskmanager-demo.com",
-  //   githubUrl: "https://github.com/muhammadraheem/task-manager",
-  //   features: [
-  //     "Drag-and-drop task organization",
-  //     "User roles and permissions",
-  //     "Task assignment and due date tracking",
-  //     "Real-time notifications",
-  //     "Project and team management",
-  //     "Activity logs and dashboards"
-  //   ]
-  // },
+  {
+    id: 3,
+    title: "Basic E-Commerce Website",
+    description: "Basic eCommerce site using Next.js, Redux, and local mock data with cash on delivery checkout.",
+    longDescription: "A modern and responsive eCommerce website built using Next.js, TypeScript, Redux Toolkit, and Redux Persist. This project simulates a full shopping experience with features like product browsing from locally stored mock data, cart management, and a seamless cash-on-delivery checkout system. The state is preserved even after page reloads using Redux Persist. After checkout, an automated email confirmation is sent using EmailJS, allowing for a real-world order feedback experience. The UI is clean, user-friendly, and fully responsive, ensuring smooth functionality across all devices.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Redux Persist"],
+    image: "https://i.ibb.co/KxRJ5xC0/basic-ecomerce-website.png",
+    liveUrl: "https://basic-ecommerce-redux-site.vercel.app/",
+    githubUrl: "https://github.com/MuhammadRaheem04/basic-ecommerce-redux-site",
+    features: [
+      "Built with Next.js, TypeScript and Tailwind CSS",
+      "Fully responsive design for all devices",
+      "Product listing using local mock data",
+      "State management via Redux Toolkit and Redux Persist",
+      "Cart management with quantity control",
+      "Cash on Delivery checkout system",
+      "Email confirmation using EmailJS",
+    ]
+  },
 ];
 
 export const services: ServiceType[] = [
